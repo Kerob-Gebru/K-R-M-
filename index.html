@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome To My Website</h1>
+    </header>
+    <button onclick={opup()}>Main</button>
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/About.html" >About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h2>Main Content</h2>
+        <p>This is the main content of my webpage.</p>
+        </article>
+    </main>
+      <footer>
+        <p>&copy; 2024 My Website</p>
+      </footer>
+      <script>
+        function opup() {
+          document.getElementById("nav-bar").style.display="block";
+
+        }
+      </script>
+  </body>
+  </html>
